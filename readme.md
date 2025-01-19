@@ -32,7 +32,7 @@ install.packages(c("ggplot2", "shiny", "readxl", "shinythemes"))
 5. Run the Shiny app:
 click ctrl+shift+p
 type create R terminal
-source("new1.R")
-
+library("shiny")
+shiny::runApp("progrmR.R")
 
 
