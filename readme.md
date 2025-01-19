@@ -27,7 +27,7 @@ Once installed, the extension activates whenever an .R file is opened.
 click ctrl+shift+p
 type create R terminal
 
-install.packages(c("ggplot2", "shiny"))
+install.packages(c("ggplot2", "shiny", "readxl", "shinythemes"))
 
 5. Run the Shiny app:
 click ctrl+shift+p
